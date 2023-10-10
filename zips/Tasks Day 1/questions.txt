@@ -1,0 +1,24 @@
+What is HTML, and what does it stand for?
+
+Describe the basic structure of an HTML document. What are the essential elements you would find in every HTML document?
+
+How do you create your first HTML document from scratch? Provide a simple example.
+
+What is the purpose of HTML headings (e.g., <h1>, <h2>, <h3>) in a web page, and how do they differ in terms of importance?
+
+Explain how you create paragraphs in HTML. Provide an example of a simple paragraph.
+
+When and why would you use the <br> element in HTML? Provide an example.
+
+How do you add comments in an HTML document? Why are comments useful in HTML coding?
+
+What is the role of the <!DOCTYPE> declaration in an HTML document?
+
+What are some common best practices for writing clean and well-structured HTML code?
+
+These questions should help you assess your students' comprehension of the fundamental concepts you introduced in your HTML basics lesson.
+
+
+
+
+

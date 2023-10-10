@@ -1,0 +1,21 @@
+{
+    "list": [
+        {
+            "date": "10/10/2023",
+            "topics": [
+                "What is HTML",
+                "Basic structure of HTML documents",
+                "Creating your first HTML document",
+                "Using headings, paragraphs, and line breaks"
+            ],
+            "classWorkUrls": {
+                "title": "Day 1 - Assignment 1",
+                "url": "images/exercise1.png"
+            },
+            "homeWorkUrls": {
+                "title": "Day 1 - Assignment 2",
+                "url": "zips/task1.png"
+            }
+        }
+    ]
+}

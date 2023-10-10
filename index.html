@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercises</title>
+    <title>Assignments</title>
     <link rel="shortcut icon" href="favicon_io/favicon-32x32.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -17,66 +17,85 @@
 
 <body>
     <div class="container pt-5">
-        <h1>Exercises</h1>
+        <h1>Assignments</h1>
         <table class="table table-striped">
             <thead>
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Date</th>
                     <th scope="col">Topics Covered</th>
-                    <th scope="col">Download</th>
+                    <th scope="col">Class Task</th>
+                    <th scope="col">Home Task</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>10/10/2023</td>
-                    <td>
-                        <ul style="padding-left: 20px;">
-                            <li>What is HTML</li>
-                            <li>
-                                Basic structure of HTML documents,
-                            </li>
-                            <li>
-                                Creating your first HTML document,
-                            </li>
-                            <li>
-                                Using headings, paragraphs, and line breaks
-                            </li>
-                        </ul>
-                    </td>
-                    <td>
-                        <a href="images/exercise1.png" download="image.png">
-                            <button class="btn btn-primary" id="downloadButton"><span class="material-symbols-outlined">
-                                download
-                            </span></button>
-                        </a>
-                    </td>
-                </tr>
-            </tbody>
+            <tbody id="tbody"></tbody>
         </table>
     </div>
 
     <script>
-        // function downloadImage() {
-        //     // Replace 'path/to/your/image.jpg' with the actual path to your image.
-        //     var imageSource = 'path/to/your/image.jpg';
-        //     var downloadLink = document.createElement('a');
-        //     downloadLink.href = imageSource;
-        //     downloadLink.download = 'images/exercise1.png'; // Set the desired filename for the downloaded image.
+        let data = [];
+        async function fetchDataFromJSONFile() {
+            await fetch('data.json') // Replace 'data.json' with the path to your JSON file
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(res => {
+                    data = res.list;
+                    createTable();
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+        }
 
-        //     // Trigger a click event on the anchor element to start the download.
-        //     var event = new MouseEvent('click', {
-        //         bubbles: true,
-        //         cancelable: true,
-        //         view: window
-        //     });
-        //     downloadLink.dispatchEvent(event);
-        // }
+        fetchDataFromJSONFile();
 
-        // // Call the function when needed, e.g., when a button is clicked.
-        // document.getElementById('downloadButton').addEventListener('click', downloadImage);
+        function createTable() {
+            const tbody = document.getElementById('tbody');
+            console.log(tbody);
+            let str = '';
+            data.forEach((item, index) => {
+                console.log("Tets");
+                let tr = document.createElement('tr');
+                let indexing = document.createElement('th');
+                indexing.innerText = index + 1;
+                let date = document.createElement('td');
+                date.innerText = item.date;
+                let topics = document.createElement('td');
+                let topicList = document.createElement('ul');
+                topicList.style.paddingLeft = '20px'
+                item.topics.forEach((listItem) => {
+                    let li = document.createElement('li');
+                    li.innerText = listItem;
+                    topicList.appendChild(li);
+                })
+                topics.append(topicList)
+                let classTask = document.createElement('td');
+                classTask.innerHTML = `<a href="${item.classWorkUrls.url}" download="${item.classWorkUrls.title}">
+                            <button class="btn btn-primary" id="downloadButton"><span class="material-symbols-outlined">
+                                    download
+                                </span></button>
+                        </a>`;
+                let homeTask = document.createElement('td');
+                homeTask.innerHTML = `<a href="${item.homeWorkUrls.url}" download="${item.homeWorkUrls.title}">
+                            <button class="btn btn-primary" id="downloadButton"><span class="material-symbols-outlined">
+                                    download
+                                </span></button>
+                        </a>`;
 
+                tr.appendChild(indexing);
+                tr.appendChild(date);
+                tr.appendChild(topics);
+                tr.appendChild(classTask)
+                tr.appendChild(homeTask)
+
+                console.log(tr);
+                tbody.appendChild(tr);
+            })
+        }
     </script>
 </body>
 
