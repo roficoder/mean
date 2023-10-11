@@ -33,9 +33,29 @@
             },
             "homeWorkUrls": {
                 "title": "Day 1 - Assignment 2",
-                "url": "zips/task1.png"
+                "url": "zips/task1.png",
+                "view": "tasks/day2_home.html"
             },
             "notes": "notes/day_2.html"
+        },
+        {
+            "date": "12/10/2023",
+            "topics": [
+                "Linking other pages",
+                "What is Form",
+                "Structure and Purpose",
+                "Text Input Fields",
+                "Radio Buttons and Checkboxes",
+                "Select dropdowns and textareas"                
+            ],
+            "classWorkUrls": {
+                "title": "Day 2 - Assignment 1",
+                "url": "images/exercise1.png"                
+            },
+            "homeWorkUrls": {
+                "title": "Day 1 - Assignment 2",
+                "url": "zips/task1.png"
+            }
         }
     ]
 }

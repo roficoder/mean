@@ -74,24 +74,34 @@
                     topicList.appendChild(li);
                 })
                 topics.append(topicList)
+                // <a href="${item.classWorkUrls.url}" download="${item.classWorkUrls.title}">
+                //             <button class="btn btn-primary" id="downloadButton"><span class="material-symbols-outlined">
+                //                     download
+                //                 </span></button>
+                //         </a>
                 let classTask = document.createElement('td');
-                classTask.innerHTML = `<a href="${item.classWorkUrls.url}" download="${item.classWorkUrls.title}">
-                            <button class="btn btn-primary" id="downloadButton"><span class="material-symbols-outlined">
-                                    download
-                                </span></button>
-                        </a><a href="${item.classWorkUrls.view}" target="_blank">
+                if(item.classWorkUrls.view)
+                classTask.innerHTML = `<a href="${item.classWorkUrls.view}" target="_blank">
                             <button class="btn btn-primary" id="downloadButton"><span class="material-symbols-outlined">
                                     visibility
                                 </span></button>
                         </a>`;
+                        // <a href="${item.homeWorkUrls.url}" download="${item.homeWorkUrls.title}">
+                        //     <button class="btn btn-success" id="downloadButton"><span class="material-symbols-outlined">
+                        //             download
+                        //         </span></button>
+                        // </a>
                 let homeTask = document.createElement('td');
-                homeTask.innerHTML = `<a href="${item.homeWorkUrls.url}" download="${item.homeWorkUrls.title}">
+                if(item.homeWorkUrls.view){
+                    homeTask.innerHTML = `<a href="${item.homeWorkUrls.view}" target="_blank">
                             <button class="btn btn-success" id="downloadButton"><span class="material-symbols-outlined">
-                                    download
+                                    visibility
                                 </span></button>
                         </a>`;
+                }
 
                         let notes = document.createElement('td');
+                        if(item.notes)
                         notes.innerHTML = `
                         <a href="${item.notes}" target="_blank">
                             <button class="btn btn-success" id="downloadButton"><span class="material-symbols-outlined">
