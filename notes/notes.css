@@ -1,0 +1,11 @@
+.notes-section{
+    padding: 20px;
+    border: thin solid blue;
+    border-radius: 5px;
+    background: #0000ff14;
+    margin-bottom: 10px;
+}
+
+.notes-section ul{
+    padding-left: 20px;
+}

@@ -34,7 +34,8 @@
             "homeWorkUrls": {
                 "title": "Day 1 - Assignment 2",
                 "url": "zips/task1.png"
-            }
+            },
+            "notes": "notes/day_2.html"
         }
     ]
 }

@@ -26,6 +26,7 @@
                     <th scope="col">Topics Covered</th>
                     <th scope="col">Class Task</th>
                     <th scope="col">Home Task</th>
+                    <th scope="col">Notes</th>
                 </tr>
             </thead>
             <tbody id="tbody"></tbody>
@@ -90,12 +91,21 @@
                                 </span></button>
                         </a>`;
 
+                        let notes = document.createElement('td');
+                        notes.innerHTML = `
+                        <a href="${item.notes}" target="_blank">
+                            <button class="btn btn-success" id="downloadButton"><span class="material-symbols-outlined">
+                                    description
+                                </span></button>
+                        </a>
+                        `
+
                 tr.appendChild(indexing);
                 tr.appendChild(date);
                 tr.appendChild(topics);
                 tr.appendChild(classTask)
                 tr.appendChild(homeTask)
-
+                tr.appendChild(notes)
                 console.log(tr);
                 tbody.appendChild(tr);
             })
