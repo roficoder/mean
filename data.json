@@ -28,7 +28,8 @@
             ],
             "classWorkUrls": {
                 "title": "Day 2 - Assignment 1",
-                "url": "images/exercise1.png"
+                "url": "images/exercise1.png",
+                "view": "tasks/day2_class.html"
             },
             "homeWorkUrls": {
                 "title": "Day 1 - Assignment 2",
