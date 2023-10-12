@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day3 Home</title>
+</head>
+
+<body>
+    <h1>Forms Exercise</h1>
+
+    <form action="">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter your email">
+        </div><br>
+        <div>
+            <label for="email">Gender:</label>
+            <div><input type="radio" name="gender" id="male"><label for="male">Male</label>
+                <input type="radio" name="gender" id="female"><label for="female">Female</label>
+                <input type="radio" name="gender" id="other"><label for="other">Other</label>
+            </div>
+        </div><br>
+
+        <div>
+            <label for="">Please select some sport you like:</label><br>
+
+            <label for="interest1">
+                <input type="checkbox" id="interest1" name="interests" value="sports"> Sports
+            </label><br>
+
+            <label for="interest2">
+                <input type="checkbox" id="interest2" name="interests" value="music"> Music
+            </label><br>
+
+            <label for="interest3">
+                <input type="checkbox" id="interest3" name="interests" value="technology"> Technology
+            </label><br>
+
+            <label for="interest4">
+                <input type="checkbox" id="interest4" name="interests" value="food"> Food
+            </label><br>
+
+            <label for="interest5">
+                <input type="checkbox" id="interest5" name="interests" value="travel"> Travel
+            </label><br>
+
+        </div>
+
+        <div>
+            <h1>Adjust the Value</h1>
+            <p>Move the slider to select a value.</p>
+            <label for="slider">Value:</label>
+            <input type="range" id="slider" name="slider" min="0" max="100" value="50">
+        </div>
+
+        <div>
+            <h2>Select</h2>
+            <p>Please select your city</p>
+            <select name="" id="">
+                <option value="">Lahore</option>
+                <option value="">Karachi</option>
+                <option value="">Islamabad</option>
+                <option value="">Rawalpindi</option>
+                <option value="">Quetta</option>
+            </select>
+        </div>
+
+        <div>
+            <h3>Other input types</h3>
+            <div>
+                <h2>File</h2>
+                <input type="file">
+            </div>
+            <div>
+                <h2>Color</h2>
+                <input type="color">
+            </div>
+            <div>
+                <h2>Date</h2>
+                <input type="date">
+            </div>
+            <div>
+                <h2>Time</h2>
+                <input type="time">
+            </div>
+            <div>
+                <h2>Week</h2>
+                <input type="week">
+            </div>
+            <div>
+                <h2>Month</h2>
+                <input type="month">
+            </div>
+        </div>
+
+        <div>
+            <br>
+            <button>Submit</button>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>

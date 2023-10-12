@@ -46,16 +46,39 @@
                 "Structure and Purpose",
                 "Text Input Fields",
                 "Radio Buttons and Checkboxes",
-                "Select dropdowns and textareas"                
+                "Select dropdowns and textareas"
             ],
             "classWorkUrls": {
                 "title": "Day 2 - Assignment 1",
-                "url": "images/exercise1.png"                
+                "url": "images/exercise1.png",
+                "view": "tasks/day3_class.html"
+            },
+            "homeWorkUrls": {
+                "title": "Day 1 - Assignment 2",
+                "url": "zips/task1.png",
+                "view": "tasks/day3_home.html"
+            }
+        },
+        {
+            "date": "13/10/2023",
+            "topics": [
+                "Buttons",
+                "Table structure (Table, Row, Cell)",
+                "Adding table headers",
+                "Table body",
+                "Creating large tables"
+            ],
+            "classWorkUrls": {
+                "title": "Day 2 - Assignment 1",
+                "url": "images/exercise1.png",
+                "view": "tasks/day4_class.html"
             },
             "homeWorkUrls": {
                 "title": "Day 1 - Assignment 2",
                 "url": "zips/task1.png"
-            }
+            },
+            "notes": "https://res.cloudinary.com/practicaldev/image/fetch/s--Zhu5E2Bm--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/02lxssgxrwv7ywp2lhix.jpg"
+            
         }
     ]
 }
