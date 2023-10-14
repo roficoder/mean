@@ -79,6 +79,26 @@
             },
             "notes": "https://res.cloudinary.com/practicaldev/image/fetch/s--Zhu5E2Bm--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/02lxssgxrwv7ywp2lhix.jpg"
             
+        },
+        {
+            "date": "14/10/2023",
+            "topics": [
+                "CSS Introduction",
+                "Syntax",
+                "How To Implement CSS",
+                "Selectors [Element, Class, Id, Universal, Space, Parent, Sibling]",
+                "Colors, Width, Height",
+                "Text Alignment, Fonts",
+                "Background [Image, Color, Repeat, Size, Position]",
+                "Specificity"
+            ],
+            "classWorkUrls": {
+                "title": "Day 5 - Class",
+                "view": "tasks/day5_class.html"
+            },
+            "homeWorkUrls": {
+                "title": "Day 5 - Home"
+            }
         }
     ]
 }
