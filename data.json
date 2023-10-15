@@ -97,7 +97,8 @@
                 "view": "tasks/day5_class.html"
             },
             "homeWorkUrls": {
-                "title": "Day 5 - Home"
+                "title": "Day 5 - Home",
+                "view": "tasks/day5_home.html"
             }
         }
     ]
