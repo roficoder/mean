@@ -87,10 +87,7 @@
                 "Syntax",
                 "How To Implement CSS",
                 "Selectors [Element, Class, Id, Universal, Space, Parent, Sibling]",
-                "Colors, Width, Height",
-                "Text Alignment, Fonts",
-                "Background [Image, Color, Repeat, Size, Position]",
-                "Specificity"
+                "Color, Font Size"
             ],
             "classWorkUrls": {
                 "title": "Day 5 - Class",
@@ -100,6 +97,20 @@
                 "title": "Day 5 - Home",
                 "view": "tasks/day5_home.html"
             }
+        },
+        {
+            "date": "16/10/2023",
+            "topics": [
+                "QUESTIONING STUDENTS",
+                "Font [Weight, Style, Family]",
+                "5 Blocks of CSS [Box Model, Positioning, Flexbox, Grid, Animations]",
+                "Background [Size, Position, Color, Image]",
+                "Box Model",
+                "Text Alignment",
+                "Height, Width",
+                "Borders",
+                "Margin, Padding"                
+            ]
         }
     ]
 }
