@@ -112,11 +112,12 @@
                 "Margin, Padding"                
             ],
             "classWorkUrls": {
-               
+                "title": "Day 6 - Cass",
+                "view": "tasks/day6_class.html"
                 
             },
             "homeWorkUrls": {
-             
+                
             
             }
         }
