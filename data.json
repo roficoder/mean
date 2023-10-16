@@ -122,10 +122,15 @@
         {
             "date": "17/10/2023",
             "topics": [
+                "Universal Selector",
+                "Units [px, rem, em, percentage]",
+                "Default Styling on Element",
                 "Columns",
                 "Box Sizing",
+                "Display",
                 "Positioning [Static, Relative, Absolute, Fixed, Sticky]",
-                "Float, Clear"
+                "Image Scrolling",
+                "Git - Attaching Local To Remote"
             ],
             "classWorkUrls": {
                 "title": "Day 7 - Class"
