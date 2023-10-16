@@ -110,6 +110,23 @@
                 "Borders",
                 "Margin, Padding"                
             ]
+        },
+        {
+            "date": "17/10/2023",
+            "topics": [
+                "Columns",
+                "Box Sizing",
+                "Positioning [Static, Relative, Absolute, Fixed, Sticky]",
+                "Float, Clear"
+            ],
+            "classWorkUrls": {
+                "title": "Day 5 - Class",
+                "view": "tasks/day5_class.html"
+            },
+            "homeWorkUrls": {
+                "title": "Day 5 - Home"
+            }
+
         }
     ]
 }
