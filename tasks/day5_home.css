@@ -1,0 +1,28 @@
+*{
+    color: seagreen;
+}
+
+p{
+    color: black;
+    font-size: 14px;
+}
+
+h2{
+    color: peru;
+    font-size: 16px;
+}
+
+h3{
+    font-size: 32px;
+    color: red;
+}
+
+h4{
+    color: palevioletred;
+}
+
+h5{
+    margin-top: 0px;
+    font-size: 32px;
+    color: blueviolet;
+}

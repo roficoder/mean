@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile Card</title>
+</head>
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;   
+}
+
+header{
+    padding: 2%;
+}
+
+header div button{
+    margin-inline: 25px;
+}
+
+/* 
+#b-1{
+    margin-inline: 25px;
+}
+
+#b-2{
+    margin-inline: 25px;
+}
+
+#b-3{
+    margin-inline: 25px;
+} */
+
+.profile-card {
+    background-color: #fff;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 auto 15px;
+}
+
+
+.profile-card h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
+
+
+.profile-card p:nth-child(3) {
+    font-style: italic;
+    color: #777;
+    margin: 5px 0;
+}
+
+
+.profile-card p:last-child {
+    color: #777;
+    margin: 5px 0;
+}
+
+</style>
+<body>
+    <header>
+        <div>
+            <button id="b-1">First</button>
+            <button id="b-2">Second</button>
+            <button id="b-3">Third</button>
+        </div>
+    </header>
+    <div class="profile-card">
+        <img src="https://img.freepik.com/premium-vector/glitch-social-media-user-profile-icon_97886-10045.jpg" alt="Your Name">
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+        <p>Location: Your City</p>
+    </div>
+</body>
+</html>

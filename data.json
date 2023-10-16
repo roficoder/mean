@@ -1,115 +1,121 @@
 {
-    "list": [
-        {
-            "date": "10/10/2023",
-            "topics": [
-                "What is HTML",
-                "Basic structure of HTML documents",
-                "Creating your first HTML document",
-                "Using headings, paragraphs, and line breaks"
-            ],
-            "classWorkUrls": {
-                "title": "Day 1 - Assignment 1",
-                "url": "images/exercise1.png"
-            },
-            "homeWorkUrls": {
-                "title": "Day 1 - Assignment 2",
-                "url": "zips/task1.png"
-            }
-        },
-        {
-            "date": "11/10/2023",
-            "topics": [
-                "Div and span",
-                "Lists (Ordered and Unordered)",
-                "Creating hyperlinks with anchor tags",
-                "Inserting images",
-                "Text formatting (bold, italics)"
-            ],
-            "classWorkUrls": {
-                "title": "Day 2 - Assignment 1",
-                "url": "images/exercise1.png",
-                "view": "tasks/day2_class.html"
-            },
-            "homeWorkUrls": {
-                "title": "Day 1 - Assignment 2",
-                "url": "zips/task1.png",
-                "view": "tasks/day2_home.html"
-            },
-            "notes": "notes/day_2.html"
-        },
-        {
-            "date": "12/10/2023",
-            "topics": [
-                "Linking other pages",
-                "What is Form",
-                "Structure and Purpose",
-                "Text Input Fields",
-                "Radio Buttons and Checkboxes",
-                "Select dropdowns and textareas"
-            ],
-            "classWorkUrls": {
-                "title": "Day 2 - Assignment 1",
-                "url": "images/exercise1.png",
-                "view": "tasks/day3_class.html"
-            },
-            "homeWorkUrls": {
-                "title": "Day 1 - Assignment 2",
-                "url": "zips/task1.png",
-                "view": "tasks/day3_home.html"
-            }
-        },
-        {
-            "date": "13/10/2023",
-            "topics": [
-                "Buttons",
-                "Table structure (Table, Row, Cell)",
-                "Adding table headers",
-                "Table body",
-                "Creating large tables"
-            ],
-            "classWorkUrls": {
-                "title": "Day 2 - Assignment 1",
-                "url": "images/exercise1.png",
-                "view": "tasks/day4_class.html"
-            },
-            "homeWorkUrls": {
-                "title": "Day 1 - Assignment 2",
-                "url": "zips/task1.png"
-            },
-            "notes": "https://res.cloudinary.com/practicaldev/image/fetch/s--Zhu5E2Bm--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/02lxssgxrwv7ywp2lhix.jpg"
-            
-        },
-        {
-            "date": "14/10/2023",
-            "topics": [
-                "CSS Introduction",
-                "Syntax",
-                "How To Implement CSS",
-                "Selectors [Element, Class, Id, Universal, Space, Parent, Sibling]",
-                "Color, Font Size"
-            ],
-            "classWorkUrls": {
-                "title": "Day 5 - Class",
-                "view": "tasks/day5_class.html"
-            },
-            "homeWorkUrls": {
-                "title": "Day 5 - Home"
-            }
-        },
-        {
-            "date": "16/10/2023",
-            "topics": [
-                "QUESTIONING STUDENTS",
-                "Font [Weight, Style, Family]",
-                "5 Blocks of CSS [Box Model, Positioning, Flexbox, Grid, Animations]",
-                "Background [Size, Position, Color, Image]",
-                "Box Model",
-                "Text Alignment",
-                "Height, Width",
-                "Borders",
-                "Margin, Padding"                
-            ]
+  "list": [
+    {
+      "date": "10/10/2023",
+      "topics": [
+        "What is HTML",
+        "Basic structure of HTML documents",
+        "Creating your first HTML document",
+        "Using headings, paragraphs, and line breaks"
+      ],
+      "classWorkUrls": {
+        "title": "Day 1 - Assignment 1",
+        "url": "images/exercise1.png"
+      },
+      "homeWorkUrls": {
+        "title": "Day 1 - Assignment 2",
+        "url": "zips/task1.png"
+      }
+    },
+    {
+      "date": "11/10/2023",
+      "topics": [
+        "Div and span",
+        "Lists (Ordered and Unordered)",
+        "Creating hyperlinks with anchor tags",
+        "Inserting images",
+        "Text formatting (bold, italics)"
+      ],
+      "classWorkUrls": {
+        "title": "Day 2 - Assignment 1",
+        "url": "images/exercise1.png",
+        "view": "tasks/day2_class.html"
+      },
+      "homeWorkUrls": {
+        "title": "Day 1 - Assignment 2",
+        "url": "zips/task1.png",
+        "view": "tasks/day2_home.html"
+      },
+      "notes": "notes/day_2.html"
+    },
+    {
+      "date": "12/10/2023",
+      "topics": [
+        "Linking other pages",
+        "What is Form",
+        "Structure and Purpose",
+        "Text Input Fields",
+        "Radio Buttons and Checkboxes",
+        "Select dropdowns and textareas"
+      ],
+      "classWorkUrls": {
+        "title": "Day 2 - Assignment 1",
+        "url": "images/exercise1.png",
+        "view": "tasks/day3_class.html"
+      },
+      "homeWorkUrls": {
+        "title": "Day 1 - Assignment 2",
+        "url": "zips/task1.png",
+        "view": "tasks/day3_home.html"
+      }
+    },
+    {
+      "date": "13/10/2023",
+      "topics": [
+        "Buttons",
+        "Table structure (Table, Row, Cell)",
+        "Adding table headers",
+        "Table body",
+        "Creating large tables"
+      ],
+      "classWorkUrls": {
+        "title": "Day 2 - Assignment 1",
+        "url": "images/exercise1.png",
+        "view": "tasks/day4_class.html"
+      },
+      "homeWorkUrls": {
+        "title": "Day 1 - Assignment 2",
+        "url": "zips/task1.png"
+      },
+      "notes": "https://res.cloudinary.com/practicaldev/image/fetch/s--Zhu5E2Bm--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/02lxssgxrwv7ywp2lhix.jpg"
+    },
+    {
+      "date": "14/10/2023",
+      "topics": [
+        "CSS Introduction",
+        "Syntax",
+        "How To Implement CSS",
+        "Selectors [Element, Class, Id, Universal, Space, Parent, Sibling]",
+        "Color, Font Size"
+      ],
+      "classWorkUrls": {
+        "title": "Day 5 - Class",
+        "view": "tasks/day5_class.html"
+      },
+      "homeWorkUrls": {
+        "title": "Day 5 - Home",
+        "view": "tasks/day5_home.html"
+      }
+    },
+    {
+      "date": "16/10/2023",
+      "topics": [
+        "QUESTIONING STUDENTS",
+        "Font [Weight, Style, Family]",
+        "5 Blocks of CSS [Box Model, Positioning, Flexbox, Grid, Animations]",
+        "Background [Size, Position, Color, Image]",
+        "Box Model",
+        "Text Alignment",
+        "Height, Width",
+        "Borders",
+        "Margin, Padding"
+      ],
+      "classWorkUrls": {
+        "title": "Day 6 - Class",
+        "view": "tasks/day6_class.html"
+      },
+      "homeWorkUrls": {
+        "title": "Day 6 - Home",
         },
         {
             "date": "17/10/2023",
@@ -127,6 +133,8 @@
                 "title": "Day 5 - Home"
             }
 
-        }
-    ]
+        "view": "tasks/day6_home.html"
+      }
+    }
+  ]
 }
