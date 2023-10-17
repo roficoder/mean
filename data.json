@@ -138,6 +138,19 @@
             "homeWorkUrls": {
                 "title": "Day 7 - Home"
             }
+        },
+        {
+            "date": "18/10/2023",
+            "topics": [
+                "Positioning",
+                "Z-index"
+            ],
+            "classWorkUrls": {
+                "title": "Day 8 - Class"
+            },
+            "homeWorkUrls": {
+                "title": "Day 8 - Home"
+            }
         }
     ]
 }
