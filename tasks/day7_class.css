@@ -1,48 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+    font-family: sans-serif;
+    height: 5000px;
+}
+
+.heading{
+    border: 5px solid black;
+    padding: 16px;
+    background: darkmagenta;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.border-bottom{
+    border-bottom: 5px solid black;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 0.5em;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+footer{
     width: 100%;
-}
-
-.container {
-  width: 200px; /* Pixels (px) */
-  font-size: 1.5rem; /* Rems (relative to root font size) */
-  padding: 1em; /* Ems (relative to the font-size of the parent element) */
-  background-color: lightblue;
-  margin: 10%; /* Percentage (%) */
-}
-
-.container {
-    width: 200px;
-    height: 100px;
-    background-color: lightblue;
-}
-
-.static {
-    position: static;
-}
-
-.relative {
-    position: relative;
-    top: 20px;
-    left: 20px;
-}
-
-.absolute {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
-.fixed {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    bottom: 0;
+    background-color: orange ;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
 }
 
-.sticky {
-    position: sticky;
-    top: 20px;
+.section{
+    width: 90%;
+    margin: auto;
+    padding: 1em 3em;
+    border: 3px solid darkmagenta;
+    border-radius: 3px;
 }
 
-body {
-    height: 400px; /* Add some height to demonstrate scrolling for 'sticky' position */
+.section h2{
+    margin-bottom: 20px;
+}
+
+.section ul li{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card{
+    width: 400px;
+    margin: auto;
+    /* padding: 1em; */
+    border-radius: 5px;
+    border: 2px solid #4949ff;
+    margin-top: 3em;
+    overflow: hidden;
+    position: relative;
+}
+
+.card div{
+    height: 80px;
+    background: #4949ff;
+
+}
+
+.card img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 23px;
+}
+
+.card h2{
+    padding-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.card p{
+    padding-left: 10px;
+    margin-bottom: 1em;
+}
+
+.guide{
+    text-align: center;
+    margin-top: 20px;
 }
