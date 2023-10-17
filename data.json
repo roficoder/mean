@@ -133,10 +133,12 @@
                 "Git - Attaching Local To Remote"
             ],
             "classWorkUrls": {
-                "title": "Day 7 - Class"
+                "title": "Day 7 - Class",
+                "view": "tasks/day7_class.html"
             },
             "homeWorkUrls": {
-                "title": "Day 7 - Home"
+                "title": "Day 7 - Home",
+                "view": "tasks/day7_home.html"
             }
         },
         {

@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+}
+
+.container {
+  width: 200px; /* Pixels (px) */
+  font-size: 1.5rem; /* Rems (relative to root font size) */
+  padding: 1em; /* Ems (relative to the font-size of the parent element) */
+  background-color: lightblue;
+  margin: 10%; /* Percentage (%) */
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.sticky {
+    position: sticky;
+    top: 20px;
+}
+
+body {
+    height: 400px; /* Add some height to demonstrate scrolling for 'sticky' position */
+}
