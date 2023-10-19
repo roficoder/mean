@@ -153,6 +153,19 @@
             "homeWorkUrls": {
                 "title": "Day 8 - Home"
             }
+        },
+        {
+            "date": "19/10/2023",
+            "topics": [
+                "Overflow",
+                "Box-shadow"
+            ],
+            "classWorkUrls": {
+                "title": "Day 8 - Class"
+            },
+            "homeWorkUrls": {
+                "title": "Day 8 - Home"
+            }
         }
     ]
 }
