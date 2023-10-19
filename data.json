@@ -162,10 +162,12 @@
                 "Flexbox"
             ],
             "classWorkUrls": {
-                "title": "Day 8 - Class"
+                "title": "Day 8 - Class",
+                "view": "https://media.geeksforgeeks.org/wp-content/uploads/20220331233511/center-660x387.png"
             },
             "homeWorkUrls": {
-                "title": "Day 8 - Home"
+                "title": "Day 8 - Home",
+                "view": "https://media.geeksforgeeks.org/wp-content/uploads/20211028155834/1.png"
             }
         }
     ]
