@@ -173,6 +173,14 @@
                 "title": "Day 8 - Home",
                 "view": "tasks/day9_home.html"
             }
+        },
+        {
+            "date": "20/10/2023",
+            "topics": [
+                "Variables",
+                "Flexbox Practice",
+                "Align Content"
+            ]
         }
     ]
 }
