@@ -182,10 +182,11 @@
                 "Align Content"
             ],
             "classWorkUrls": {
-                "title": "Day 8 - Class"
+                "title": "Day 10 - Class"
             },
             "homeWorkUrls": {
-                "title": "Day 8 - Home"
+                "title": "Day 10 - Home",
+                "view": "tasks/day10_home.html"
             }
         }
     ]
