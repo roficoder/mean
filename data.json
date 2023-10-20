@@ -180,7 +180,13 @@
                 "Variables",
                 "Flexbox Practice",
                 "Align Content"
-            ]
+            ],
+            "classWorkUrls": {
+                "title": "Day 8 - Class"
+            },
+            "homeWorkUrls": {
+                "title": "Day 8 - Home"
+            }
         }
     ]
 }
