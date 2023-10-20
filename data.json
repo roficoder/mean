@@ -159,13 +159,18 @@
             "topics": [
                 "Overflow",
                 "Box-shadow",
-                "Flexbox"
+                "Flexbox",
+                "Justify-content",
+                "Align-items",
+                "Flex-direction",
+                "Gap"
             ],
             "classWorkUrls": {
                 "title": "Day 8 - Class"
             },
             "homeWorkUrls": {
-                "title": "Day 8 - Home"
+                "title": "Day 8 - Home",
+                "view": "tasks/day9_home.html"
             }
         }
     ]
