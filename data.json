@@ -188,6 +188,19 @@
                 "title": "Day 10 - Home",
                 "view": "tasks/day10_home.html"
             }
+        },
+        {
+            "date": "21/10/2023",
+            "topics": [
+                "Frontend Mentor Projects"
+            ],
+            "classWorkUrls": {
+                "title": "Day 11 - Class"
+            },
+            "homeWorkUrls": {
+                "title": "Day 11 - Home",
+                "view": "tasks/day11_home.html"
+            }
         }
     ]
 }
