@@ -201,6 +201,19 @@
                 "title": "Day 11 - Home",
                 "view": "tasks/day11_home.html"
             }
+        },
+        {
+            "date": "26/10/2023",
+            "topics": [
+                "Form Project"
+            ],
+            "classWorkUrls": {
+                "title": "Day 11 - Class",
+                "view": "https://colorlib.com/wp/wp-content/uploads/sites/2/landing-fast-free-html-landing-page-site-template.jpg"
+            },
+            "homeWorkUrls": {
+                "title": "Day 11 - Home"
+            }
         }
     ]
 }
