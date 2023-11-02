@@ -228,6 +228,21 @@
             "homeWorkUrls": {
                 "title": "Day 11 - Home"
             }
+        },
+        {
+            "date": "2/11/2023",
+            "topics": [
+                "Conditional Controls",
+                "IF, ELSE, IF ELSE IF",
+                "OPERATORS - Arithmetic, Comparison, Logical Operators"
+            ],
+            "classWorkUrls": {
+                "title": "Day  - Class",
+                "view": "js/day3.html"
+            },
+            "homeWorkUrls": {
+                "title": "Day 3 - JS"
+            }
         }
     ]
 }
