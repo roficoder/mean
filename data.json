@@ -214,6 +214,20 @@
             "homeWorkUrls": {
                 "title": "Day 11 - Home"
             }
+        },
+        {
+            "date": "1/11/2023",
+            "topics": [
+                "Functions",
+                "Functions with Parameters"
+            ],
+            "classWorkUrls": {
+                "title": "Day  - Class",
+                "view": "js/day2.html"
+            },
+            "homeWorkUrls": {
+                "title": "Day 11 - Home"
+            }
         }
     ]
 }
