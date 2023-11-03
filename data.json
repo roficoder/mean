@@ -243,6 +243,22 @@
             "homeWorkUrls": {
                 "title": "Day 3 - JS"
             }
+        },
+        {
+            "date": "3/11/2023",
+            "topics": [
+                "Objects",
+                "Object properties and functions",
+                "DOM",
+                "ID selector"
+            ],
+            "classWorkUrls": {
+                "title": "Day 4 JS - Class",
+                "view": "js/day4.html"
+            },
+            "homeWorkUrls": {
+                "title": "Day 4 - JS"
+            }
         }
     ]
 }

@@ -24,6 +24,10 @@
             .btns button a{
                 color: white;
             }
+
+            .reddish-btn{
+                background-color: rgb(236, 103, 36);
+            }
         </style>
 </head>
 
@@ -98,7 +102,7 @@
                 let classTask = document.createElement('td');
                 if(item.classWorkUrls.view)
                 classTask.innerHTML = `<a href="${item.classWorkUrls.view}" target="_blank">
-                            <button class="btn btn-primary" id="downloadButton"><span class="material-symbols-outlined">
+                            <button class="btn btn-danger" id="downloadButton"><span class="material-symbols-outlined">
                                     visibility
                                 </span></button>
                         </a>`;
