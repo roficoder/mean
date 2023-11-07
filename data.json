@@ -273,6 +273,20 @@
             "homeWorkUrls": {
                 "title": "Day 5 - JS"
             }
+        },
+        {
+            "date": "7/11/2023",
+            "topics": [
+                "Array",
+                "getElementsByTagName"
+            ],
+            "classWorkUrls": {
+                "title": "Day 5 JS - Class",
+                "view": "js/day6.html"
+            },
+            "homeWorkUrls": {
+                "title": "Day 6 - JS"
+            }
         }
     ]
 }
