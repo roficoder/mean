@@ -287,6 +287,21 @@
             "homeWorkUrls": {
                 "title": "Day 6 - JS"
             }
+        },
+        {
+            "date": "8/11/2023",
+            "topics": [
+                "Styling with JS",
+                "Event Listeners",
+                "Array Loop [ForEach]"
+            ],
+            "classWorkUrls": {
+                "title": "Day 4 JS - Class",
+                "view": "js/day7.html"
+            },
+            "homeWorkUrls": {
+                "title": "Day 7 - JS"
+            }
         }
     ]
 }
