@@ -300,7 +300,8 @@
                 "view": "js/day7.html"
             },
             "homeWorkUrls": {
-                "title": "Day 7 - JS"
+                "title": "Day 7 - JS",
+                "view": "js/day7_home.html"
             }
         }
     ]
