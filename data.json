@@ -303,6 +303,19 @@
                 "title": "Day 7 - JS",
                 "view": "js/day7_home.html"
             }
+        },
+        {
+            "date": "9/11/2023",
+            "topics": [
+                "Local Storage"
+            ],
+            "classWorkUrls": {
+                "title": "Day 8 JS - Class",
+                "view": "js/day8.html"
+            },
+            "homeWorkUrls": {
+                "title": "Day 7 - JS"
+            }
         }
     ]
 }
