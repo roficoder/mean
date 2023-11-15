@@ -316,6 +316,20 @@
             "homeWorkUrls": {
                 "title": "Day 7 - JS"
             }
+        },
+        {
+            "date": "15/11/2023",
+            "topics": [
+                "Date"
+            ],
+            "classWorkUrls": {
+                "title": "Day 11 JS - Class",
+                "view": "https://demo.100jsprojects.com/age-calculator"
+            },
+            "homeWorkUrls": {
+                "title": "Day 11 - JS",
+                "view": "https://demo.100jsprojects.com/stopwatch"
+            }
         }
     ]
 }
