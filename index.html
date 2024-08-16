@@ -42,7 +42,7 @@
             <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Date</th>
+                    <!-- <th scope="col">Date</th> -->
                     <th scope="col">Topics Covered</th>
                     <th scope="col">Class Task</th>
                     <th scope="col">Home Task</th>
@@ -84,8 +84,9 @@
                 let tr = document.createElement('tr');
                 let indexing = document.createElement('th');
                 indexing.innerText = index + 1;
-                let date = document.createElement('td');
-                date.innerText = item.date;
+                // DATE CODE COMMENTED
+                // let date = document.createElement('td');
+                // date.innerText = item.date;
                 let topics = document.createElement('td');
                 let topicList = document.createElement('ul');
                 topicList.style.paddingLeft = '20px'
@@ -132,7 +133,7 @@
                         `
 
                 tr.appendChild(indexing);
-                tr.appendChild(date);
+                // tr.appendChild(date);
                 tr.appendChild(topics);
                 tr.appendChild(classTask)
                 tr.appendChild(homeTask)
